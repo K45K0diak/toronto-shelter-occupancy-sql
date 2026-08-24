@@ -1,0 +1,13 @@
+# Raw data - public, large, linked in docs/DATA_SOURCE.md
+*.csv
+data/
+
+# Credentials - never commit
+.env
+*.env
+credentials.*
+*.pgpass
+
+# Windows junk
+Thumbs.db
+desktop.ini
