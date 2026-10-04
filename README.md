@@ -69,6 +69,16 @@ Prioritize ways to add or free up shelter bed capacity, especially in programs t
 - Program 18891 relocated between locations mid-year. The schema records one location per program, so only its final site appears.
 - Locations 1761 and 1155 appear to be the same building at 4584 Kingston Road, recorded twice across a rename. Both were retained because the source recorded them separately.
 - The data reflects what was reported. Variation in reporting practice between operators would be indistinguishable from real variation.
+
+   Part of a series of three projects on Toronto open data, each built
+   around validating a result and chasing the gap to its cause. Project
+   two reconciled Excel counts against published police figures to
+   within 0.15%:
+   https://github.com/K45K0diak/toronto-crime-excel-analysis
+   Project three benchmarked an LLM against a deterministic rule and
+   recommended the rule:
+   https://github.com/K45K0diak/toronto-crime-llm-benchmark
+
 ## How to reproduce
  
 1. Download the dataset — see [docs/DATA_SOURCE.md](docs/DATA_SOURCE.md).
